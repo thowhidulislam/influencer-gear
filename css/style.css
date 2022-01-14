@@ -1,5 +1,5 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -23,9 +23,6 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    /* height: 80px;
-    align-items: center; */
-
 }
 
 .brand-name {
@@ -39,7 +36,6 @@ nav {
 
 .navigation {
     display: flex;
-    /* align-items: center; */
     margin-top: 95px;
 
 }
@@ -120,4 +116,116 @@ nav {
 .banner-image img {
     margin-top: 80px;
     width: 100%;
+}
+
+/* ----------------------
+    collection card
+------------------------- */
+.collection-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+}
+
+#collection-card {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.title-secondary {
+    font-size: 28px;
+    color: #3A3A3A;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.title-tertiary {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.price {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.card-rating {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5E6366;
+    line-height: 22px;
+    vertical-align: bottom;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.link-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+/*---------------------
+     footer
+----------------------- */
+
+footer {
+    background-color: #0A0826;
+    height: 250px;
+    text-align: center;
+}
+
+.brand-title-white {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+    
+}
+
+.footer-info p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.fa-instagram,
+.fa-dribbble,
+.fa-twitter,
+.fa-youtube {
+    color: #fff;
+    padding: 15px;
 }
