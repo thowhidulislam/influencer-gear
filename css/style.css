@@ -145,6 +145,17 @@ nav {
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    /* transition: transform 3s ease-in ; */
+    
+}
+
+.photo { 
+    overflow: hidden;  
+}
+
+.card>.photo:hover>img {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out ; 
 }
 
 .title-tertiary {
@@ -186,7 +197,7 @@ nav {
     margin-top: 50px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 35px;
+    margin-right: 130px;
 }
 
 .card-link {
@@ -197,6 +208,27 @@ nav {
     padding: 5px 0;
 }
 
+/* -------------------
+     new arrivals
+---------------------- */
+#new-arrival {
+    margin-top: 100px;
+}
+.new-arrival {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.photo {
+    /* width: 300px;
+    height: 256px; */
+   
+}
+
+.photo img {
+    width: 100%;
+}
+
 /*---------------------
      footer
 ----------------------- */
@@ -204,7 +236,8 @@ nav {
 footer {
     background-color: #0A0826;
     height: 250px;
-    text-align: center;
+    text-align: center; 
+    margin-top: 100px;    
 }
 
 .brand-title-white {
