@@ -75,6 +75,10 @@ nav {
     gap: 133px;
 }
 
+.banner:hover>.banner-image>img {
+    animation: rotation 10s 1 linear;
+}
+
 .banner-title {
     margin-top: 140px;
     font-size: 40px;
@@ -219,11 +223,6 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.photo {
-    /* width: 300px;
-    height: 256px; */
-   
-}
 
 .photo img {
     width: 100%;
@@ -261,4 +260,18 @@ footer {
 .fa-youtube {
     color: #fff;
     padding: 15px;
+}
+
+/* -------------------
+    animation
+---------------------- */
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
 }
