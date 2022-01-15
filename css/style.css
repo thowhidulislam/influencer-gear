@@ -14,7 +14,7 @@ body {
 
 .container {
     max-width: 100%;
-    padding: 0 120px;
+    padding: 0 110px;
 }
 
 /* ---------------------
@@ -275,3 +275,94 @@ footer {
         transform: rotate(359deg);
     }
 }
+
+/* ---------------------
+    media queries
+------------------------ */
+
+/* mobile devices   max-width:688px */
+
+@media only screen and (max-width:688px) {
+    nav {
+        display: none   ;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 40px;    
+    }
+
+    .banner {
+        grid-template-columns: 1fr;  
+        gap: 0;
+        justify-items: center;
+    }
+
+    .banner-image {
+        width: 257px;
+    }
+
+    .banner-image img {
+        width: 90%;
+        justify-items: center;
+    }
+
+    .banner-details {
+        order: 2;
+        text-align: center;
+    }
+
+    .banner-title {
+        margin-top: 14px;
+    }
+
+    .banner-details p {
+        font-size: 14px;
+        margin-top: 15px;
+        font-weight: 500;
+    }
+
+    #collection-card,
+    #new-arrival {
+        margin-top: 50px;
+    }
+
+   .collection-card,
+   .new-arrival {
+       grid-template-columns: 1fr;
+       justify-content: center;
+   }
+
+   .link-container {
+    margin-top: 30px;
+    margin-right: 42px;
+   }
+
+   footer {
+       height: 200px;
+       margin-top: 50px;
+   }
+
+.brand-title-white {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 25px;
+    
+}
+
+.footer-info p {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.fa-instagram,
+.fa-dribbble,
+.fa-twitter,
+.fa-youtube {
+    color: #fff;
+    padding: 15px;
+    font-size: 24px;
+}
+}
+
