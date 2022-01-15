@@ -160,8 +160,7 @@ nav {
     background-color: #fff;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
 .photo { 
@@ -254,8 +253,7 @@ footer {
     color: #fff;
     font-size: 24px;
     font-weight: 700;
-    padding-top: 50px;
-    
+    padding-top: 50px; 
 }
 
 .footer-info p {
@@ -290,7 +288,9 @@ footer {
 /* ---------------------
     media queries
 ------------------------ */
-/* tablet devices max-width:992px and min-width:688px */
+
+/* tablet devices   max-width:992px and min-width:688px */
+
 @media only screen and (min-width:689px) and (max-width: 992px) {
 
     .container {
@@ -349,8 +349,8 @@ footer {
     collection section 
 ----------------------------*/
 
-#collection-card,
-#new-arrival {
+    #collection-card,
+    #new-arrival {
         margin-top: 50px;
     }
 
@@ -363,12 +363,12 @@ footer {
    .link-container {
     margin-top: 30px;
     margin-right: 20px;
-}
+    }
 
-footer {
-    height: 220px;
-    margin-top: 50px;
-}
+    footer {
+        height: 220px;
+        margin-top: 50px;
+    }
 }
 
 /* mobile devices   max-width:688px */
@@ -461,25 +461,25 @@ footer {
        margin-top: 50px;
    }
 
-.brand-title-white {
-    font-size: 16px;
-    font-weight: 700;
-    padding-top: 25px;  
-}
+    .brand-title-white {
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 25px;  
+    }
 
-.footer-info p {
-    font-size: 12px;
-    line-height: 24px;
-    padding: 10px;
-}
+    .footer-info p {
+        font-size: 12px;
+        line-height: 24px;
+        padding: 10px;
+    }
 
-.fa-instagram,
-.fa-dribbble,
-.fa-twitter,
-.fa-youtube {
-    color: #fff;
-    padding: 15px;
-    font-size: 24px;
-}
+    .fa-instagram,
+    .fa-dribbble,
+    .fa-twitter,
+    .fa-youtube {
+        color: #fff;
+        padding: 15px;
+        font-size: 24px;
+    }
 }
 
